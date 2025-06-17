@@ -1,22 +1,22 @@
-# @supercharge-protocol/core
+# supercharge-core
 
 A Solana-based loyalty checkout program protocol that enables businesses to create and manage loyalty programs on the Solana blockchain.
 
 ## Installation
 
 ```bash
-npm install @supercharge-protocol/core
+npm install supercharge-core
 # or
-yarn add @supercharge-protocol/core
+yarn add supercharge-core
 # or
-pnpm add @supercharge-protocol/core
+pnpm add supercharge-core
 ```
 
 ## Quick Start
 
 ```typescript
 import { createUmi } from '@metaplex-foundation/umi-bundle-defaults';
-import { initializeProtocol } from '@supercharge-protocol/core';
+import { initializeProtocol } from 'supercharge-core';
 import { publicKey } from '@metaplex-foundation/umi';
 
 // Create UMI instance with your RPC URL
